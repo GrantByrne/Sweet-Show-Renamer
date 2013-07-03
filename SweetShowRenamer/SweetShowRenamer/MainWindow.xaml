@@ -1,0 +1,58 @@
+﻿<Controls:MetroWindow x:Class="SweetShowRenamer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"        
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="TV Show Renamer" Height="350" Width="525">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colours.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+                <ResourceDictionary Source="/Resources/Icons.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <Controls:WidthPercentageConverter x:Key="WidthPercentageConverter"/>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Controls:MetroWindow.WindowCommands>
+        <Controls:WindowCommands>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.WindowCommands>
+    
+    <Grid>
+        <Label x:Name="lblDirectory" Content="Label" HorizontalAlignment="Left" Margin="141,9,0,0" VerticalAlignment="Top"/>
+
+        <Button x:Name="btnChooseDir" Content="Choose Directory" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="115" Click="btnChooseDir_Click"/>
+
+        <ListView Name="lvShows" ItemsSource="{Binding ShowCollection}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,40">
+            <ListView.View>
+                <GridView>
+                    
+                    <GridViewColumn Width="auto" Header="Old Filename" DisplayMemberBinding="{Binding OldFilename}" />
+                    
+                    <GridViewColumn Width="auto" Header="New Filename" DisplayMemberBinding="{Binding NewFilename}" />
+
+                    <GridViewColumn Width="auto" Header="Update?">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <CheckBox IsEnabled="{Binding Processed}" IsChecked="{Binding Ready}" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Button x:Name="btnWriteChanges" Content="Write Filename Changes" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="151" Click="btnWriteChanges_Click"/>
+        <Button x:Name="btnProcessShowNames" Content="Process Show Names" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="140" Click="btnProcessShowNames_Click"/>
+
+    </Grid>
+    
+</Controls:MetroWindow>
