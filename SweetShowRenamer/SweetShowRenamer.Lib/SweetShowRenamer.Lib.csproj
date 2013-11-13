@@ -51,6 +51,7 @@
     <Compile Include="Service\Abstract\IFileStorageService.cs" />
     <Compile Include="Service\SettingsService.cs" />
     <Compile Include="Service\ShowNameService.cs" />
+    <Compile Include="Service\ShowService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
