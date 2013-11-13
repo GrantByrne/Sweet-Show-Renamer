@@ -19,3 +19,28 @@ c:\users\grant\documents\visual studio 2012\Projects\SweetShowRenamer\SweetShowR
 C:\Users\Grant\documents\visual studio 2012\Projects\SweetShowRenamer\SweetShowRenamer\bin\Debug\HtmlAgilityPack.dll
 C:\Users\Grant\documents\visual studio 2012\Projects\SweetShowRenamer\SweetShowRenamer\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\Grant\documents\visual studio 2012\Projects\SweetShowRenamer\SweetShowRenamer\bin\Debug\HtmlAgilityPack.xml
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\SweetShowRenamer.exe.config
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\SweetShowRenamer.exe
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\SweetShowRenamer.pdb
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\shows.txt
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\SweetShowRenamer.exe
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\SweetShowRenamer.pdb
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\HtmlAgilityPack.dll
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\MahApps.Metro.dll
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\HtmlAgilityPack.xml
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\SweetShowRenamer.csprojResolveAssemblyReference.cache
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\MainWindow.baml
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\Resources\Icons.baml
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\MainWindow.g.cs
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\App.g.cs
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\SweetShowRenamer_Content.g.cs
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\SweetShowRenamer_MarkupCompile.cache
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\SweetShowRenamer.g.resources
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\SweetShowRenamer.Properties.Resources.resources
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\obj\Debug\SweetShowRenamer.csproj.GenerateResource.Cache
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\SweetShowRenamer.Lib.dll
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\SweetShowRenamer.Lib.pdb
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\g\Documents\GitHub\Sweet-Show-Renamer\SweetShowRenamer\SweetShowRenamer\bin\Debug\Newtonsoft.Json.xml

@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 using System.Collections.ObjectModel;
 using HtmlAgilityPack;
+using SweetShowRenamer.Lib.Service.Abstract;
+using SweetShowRenamer.Lib.Service;
 
 namespace SweetShowRenamer.Renamer
 {
     public class ShowData
     {
-
         /// <summary>
         /// Based off the content of the old filename and the list of show names,
         /// it tries to find the name of the show

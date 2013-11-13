@@ -1,26 +1,36 @@
-﻿using System;
+﻿using HtmlAgilityPack;
+using SweetShowRenamer.Lib.Service;
+using SweetShowRenamer.Lib.Service.Abstract;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using System.IO;
-using HtmlAgilityPack;
 
 namespace SweetShowRenamer.Renamer
 {
     public class ShowProcessor
     {
+        private Dictionary<string, HtmlDocument> episodePages;
 
         /// <summary>
-        /// 
+        ///     ctor
         /// </summary>
         public ShowProcessor()
         {
             ShowsList = new ObservableCollection<ShowData>();
             ShowNames = new ObservableCollection<string>();
-            episodePages = new Dictionary<string,HtmlDocument>();
+            episodePages = new Dictionary<string, HtmlDocument>();
         }
+
+        /// <summary>
+        /// List of the Show Names used to identify the shows in the filename
+        /// </summary>
+        public ObservableCollection<String> ShowNames { get; set; }
+
+        /// <summary>
+        /// List of the shows to be updated
+        /// </summary>
+        public ObservableCollection<ShowData> ShowsList { get; set; }
 
         /// <summary>
         /// Loads up all of the show information in a single directory
@@ -28,9 +38,8 @@ namespace SweetShowRenamer.Renamer
         /// <param name="path">The directory the show information is being pulled from</param>
         public void LoadDirectory(string path)
         {
-
             this.ShowsList.Clear();
-            
+
             string[] filepaths = Directory.GetFiles(path);
 
             foreach (var file in filepaths)
@@ -69,7 +78,6 @@ namespace SweetShowRenamer.Renamer
             catch
             {
             }
-
         }
 
         /// <summary>
@@ -115,12 +123,11 @@ namespace SweetShowRenamer.Renamer
                 {
                     someShow.Ready = true;
                 }
-
             }
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public void WriteFilenames()
         {
@@ -129,17 +136,5 @@ namespace SweetShowRenamer.Renamer
                 show.writeNewFilename();
             }
         }
-
-        /// <summary>
-        /// List of the shows to be updated
-        /// </summary>
-        public ObservableCollection<ShowData> ShowsList { get; set; }
-
-        /// <summary>
-        /// List of the Show Names used to identify the shows in the filename
-        /// </summary>
-        public ObservableCollection<String> ShowNames { get; set; }
-
-        private Dictionary<string, HtmlDocument> episodePages;
     }
 }

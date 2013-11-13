@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="LastDirectory" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">C:\</Value>
     </Setting>
   </Settings>
 </SettingsFile>
