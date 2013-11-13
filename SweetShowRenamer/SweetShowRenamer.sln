@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweetShowRenamer", "SweetSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweetShowRenamer.Lib", "SweetShowRenamer.Lib\SweetShowRenamer.Lib.csproj", "{69F72E28-E6A6-409E-ADBA-3DF4497E9618}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweetShowRenamer.Test", "SweetShowRenamer.Test\SweetShowRenamer.Test.csproj", "{D5C87BC3-E28D-4855-A049-845E3871F70F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{69F72E28-E6A6-409E-ADBA-3DF4497E9618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69F72E28-E6A6-409E-ADBA-3DF4497E9618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69F72E28-E6A6-409E-ADBA-3DF4497E9618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C87BC3-E28D-4855-A049-845E3871F70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C87BC3-E28D-4855-A049-845E3871F70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C87BC3-E28D-4855-A049-845E3871F70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C87BC3-E28D-4855-A049-845E3871F70F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
